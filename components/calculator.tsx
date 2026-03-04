@@ -18,6 +18,7 @@ import { ZakatAssets, ZakatLiabilities, calculateZakat, formatCurrency } from "@
 import { useLanguage } from "@/lib/i18n";
 
 const CURRENCIES = [
+  { "code": "CAD", "symbol": "$", "name": "Canadian Dollar" },
   { code: "USD", symbol: "$", name: "US Dollar" },
   { code: "EUR", symbol: "€", name: "Euro" },
   { code: "GBP", symbol: "£", name: "British Pound" },
