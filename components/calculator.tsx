@@ -63,8 +63,8 @@ export default function Calculator() {
     }
   }, [currency]);
 
-  const nisabGold = goldPricePerGram * 85; // 85 grams of gold
-  const nisabSilver = silverPricePerGram * 595; // 595 grams of silver
+  const nisabGold = goldPricePerGram * 87.48; // 85 grams of gold
+  const nisabSilver = silverPricePerGram * 612.36; // 595 grams of silver
   const activeNisab = nisabType === "gold" ? nisabGold : nisabSilver;
 
   const [assets, setAssets] = useState<ZakatAssets>({
